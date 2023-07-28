@@ -1,5 +1,5 @@
 # Compression Mechanisms
-1. https://arxiv.org/pdf/2107.12038.pdf GAN for video compresison. Not read
+1. https://arxiv.org/pdf/2107.12038.pdf GAN for video compresison. Use GAN to compress frames such that they become sharper/closer to real. The loss is calculated in batch (sum of per-frame loss)
 
 2. https://arxiv.org/pdf/2305.18231.pdf Diffusion for image compression. Not read
 
@@ -12,6 +12,6 @@
 
 3. https://dl.acm.org/doi/pdf/10.1145/3527155 Summary of recent advances of split computing and early exit. Contains three tables listing recent work in split computing, bottleneck injection, and early exits.
 
-4. https://dl.acm.org/doi/10.1145/3093337.3037698 Neurosurgeon ASPLOS 2017. On split computing. Not read
+4. https://dl.acm.org/doi/10.1145/3093337.3037698 Neurosurgeon ASPLOS 2017. Split computing such mobile and server both do some part of the neural network task. Used alexnet as example to find the bottleneck. 
 
 5. https://arxiv.org/pdf/2008.06402.pdf Need to read
